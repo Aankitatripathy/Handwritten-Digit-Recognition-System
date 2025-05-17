@@ -1,7 +1,9 @@
 Handwritten Digit Recognition System
+
 This project is about recognizing handwritten digits (0 to 9) using machine learning. We used a small version of the MNIST dataset provided by Scikit-learn and built models to classify the digits based on their image features.
 
 Project Overview
+
 The project includes:
 •	Data loading and visualization
 •	Data preprocessing
@@ -10,11 +12,13 @@ The project includes:
 •	Visualizing confusion matrices and ROC curves
 
 Dataset
+
 •	Source: load_digits() from Scikit-learn
 •	Contains 1797 8x8 images of digits
 •	Each image is represented as a flattened 64-dimensional feature vector
 
 Technologies and Libraries
+
 •	Python
 •	Scikit-learn (sklearn)
 •	Pandas
@@ -23,6 +27,7 @@ Technologies and Libraries
 •	Time
 
 Steps Performed
+
 1. Data Visualization
 •	Displayed the first 100 handwritten digit images in a 10x10 grid.
 2. Data Preprocessing
